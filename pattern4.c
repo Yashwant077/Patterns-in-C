@@ -4,8 +4,10 @@ int main()
 {
     int n,i,j;
     char alpha;
+    
     printf("Enter an alphabet: ");
     scanf("%c", &alpha);
+    
     for(i='A';i<=alpha;i++)
     {
         for(j='A';j<=i;j++)
